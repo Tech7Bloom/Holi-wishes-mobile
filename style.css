@@ -1,0 +1,110 @@
+html, body {
+    overflow: hidden;
+    padding:50px;
+    color:#fff;
+}
+
+body {
+background: url(http://www.nhembram.com/images/happy_holi.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+canvas {
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:0.5;
+	opacity:1;
+}
+.wish{
+    position:absolute;
+    font-size:60px;
+    font-family: 'Great Vibes', cursive;
+    padding-top: 20px;
+    display: table;
+    text-justify: auto;
+    left: 60px;
+    top: 100px;
+}
+P{
+    display: table;
+    margin:20px auto;
+	font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size:8px; 
+    letter-spacing:2px;
+    position:absolute;
+    bottom:0px;
+    left:55%;   
+    z-index:1; 
+    -webit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+
+.message {
+    position: absolute;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 300px;
+    left: 35px;
+    color: lightcoral;
+    word-spacing: 3px;
+}
+.message2 {
+    position: absolute;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 335px;
+    left: 110px;
+    color: lightgreen;
+}
+.message3 {
+    position: absolute;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 370px;
+    left: 30px;
+    color: lightsalmon;
+}
+.message4 {
+    position: absolute;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 405px;
+    left: 75px;
+    color: yellow;
+}
+
+.translated{
+    position: absolute;
+    font-size: 15px;
+    top: 450px;
+    left: 30px;
+    right: 10px;
+}
+
+.done {
+    position: absolute;
+    font-size: 18px;
+    letter-spacing: 18px;
+    bottom: 300px;
+    left: 50px;
+}
+
+.organization {
+    position: absolute;
+    font-size: 12px;
+    bottom: 280px;
+    right: 70px;
+    letter-spacing: 12px;
+}
